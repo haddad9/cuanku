@@ -9,7 +9,7 @@ public class BaseController {
 
     @GetMapping("/")
     public String index(Model model) {
-        model.addAttribute("nama", "David");
+        model.addAttribute("nama", "David, Haddad, Graciella, Eka, Brandon ");
         return "index";
     }
 }
